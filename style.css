@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+}   
+
+*  
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: linear-gradient(135deg, #0056b3, #0088ff);
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.logo {
+    max-width: 170px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 7px;
+}
+
+header p {
+    opacity: 0.9;
+    font-size: 1.1rem;
+}
+
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 25px;
+}
+
+
+.cards-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    flex: 1 1 250px;
+    text-align: center;
+    border-top: 4px solid #0088ff;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #222;
+}
+
+
+.cta {
+    background-color: #e9f2ff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-whatsapp:hover {
+    background-color: #1ebc57;
+    transform: translateY(-2px);
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #aaa;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
