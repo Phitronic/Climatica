@@ -83,6 +83,27 @@ h2 {
     justify-content: center;
 }
 
+
+
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.gallery::-webkit-scrollbar { display: none; }
+
+.slide {
+  flex: 0 0 80%;
+  scroll-snap-align: center;
+}
+
+
+
 .card {
     background: white;
     padding: 25px;
