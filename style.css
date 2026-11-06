@@ -169,6 +169,21 @@ h2 {
     transform: translateY(-2px);
 }
 
+.Socials {
+background-image: url('Imagens/Certs.webp');
+background-repeat: no-repeat;
+background-size: cover;
+color:#222;
+text-align: left;
+padding: 25px;
+border-radius: 10px 10px 10px 10px;
+font-size: 0.9rem;
+}
+
+.preto {
+    color: #111; 
+    text-decoration: none;
+}   
 
 footer {
     text-align: center;
@@ -177,4 +192,5 @@ footer {
     color: #aaa;
     margin-top: 40px;
     font-size: 0.9rem;
+    border-radius: 10px 10px 0 0;
 }
