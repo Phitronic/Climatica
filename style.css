@@ -173,6 +173,7 @@ h2 {
 background-image: url('Imagens/Certs.webp');
 background-repeat: no-repeat;
 background-size: cover;
+background-position: right;
 color:#222;
 text-align: left;
 padding: 25px;
